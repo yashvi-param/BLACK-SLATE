@@ -1,0 +1,313 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width:1320px;
+    margin:auto;
+}
+.logo > div > h1{
+    justify-content: center;
+  
+    padding:20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:normal;
+    font-size:24px;
+    color: #00376E;
+    display:inline-block;
+}
+.navbar{
+  
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    padding:20px;
+}
+.nav>a{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding:5px;
+    margin: 2px 5px;
+    display:inline-block;
+    font-family: 'Noto Sans', sans-serif;
+}
+a:hover{
+        background-color:  #4CB5AB;
+        color:white;
+        border-radius: 5px;
+}
+.slider{
+    border:1px red solid;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.main-slide{
+    border:5px solid blue;
+    width:300%;
+    display: flex;
+}
+.line{
+    border: 2px solid black;
+    width: 70px;
+    margin: auto;
+    margin-top: 40px;
+}
+.slide{
+    border:1px solid black;
+    height:600px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.bg1{
+    border:1px solid black;
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    background-color: rgba(41, 10, 10, 0.589);
+    background-blend-mode:overlay;
+}
+.bg2{
+    border:1px solid black;
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.548);
+    background-blend-mode:overlay;
+}
+.bg3{
+    border:1px solid black;
+    background-image: url(img/img3.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.418);
+    background-blend-mode:overlay;
+}
+.btn{
+    margin:auto;
+    width:200px;
+    display:flex;
+    justify-content: space-evenly;
+    transform: translatey(-80px);
+    padding:10px;
+}
+.btn>a{
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+    border:1px solid black;
+    padding:5px;
+}
+.slide>h2{
+    color:white;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size:3em;
+    text-align: center; 
+}
+.slide>p{
+    color:white;
+    text-align: center;
+    font-size:16px;
+    font-family: 'Lora', serif;
+}
+.slide>a{
+    color:white;
+    text-align: center;
+    display: block;
+    border:1px solid white;
+    width:200px;
+    height:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 45px;
+}
+
+.slide>h1{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size:3em;
+    text-align: center; 
+}
+.slide>p{
+    color:white;
+    text-align: center;
+    font-size:16px;
+    font-family: "Roboto", sans-serif;
+}
+.slide>a{
+    color:white;
+    text-align: center;
+    display: block;
+    border:1px solid white;
+    width:200px;
+    height:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 45px;
+}
+
+.container-fluid{
+    text-align: center;
+    color: #00376E;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    background-color: #F4FAFA;
+    justify-content: space-between;
+    border:1px red solid;
+}
+.img{
+    background-image: url(img/img4.png);
+    background-image: url(img/img5.png);
+    background-image: url(img/img6.png);
+    border:1px red solid;
+    height:300px;
+}
+.crafts{
+    max-width:1320px;
+    margin:auto;
+  
+}
+.craft{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.crafting{
+    color: #00376E;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.crafting>h3{
+    font-size:100px;
+
+}
+.craft1{
+    width:33.33%;
+    padding: 20px;
+}
+.craft2{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.heading{
+    color: #00376E;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+}
+.text{
+    color:#5981A9;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+.button{
+    font-size:14px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding: 20px;
+    color:#4cb5ab;
+    border:1px solid #4cb5ab;
+    border-radius: 50px;
+    width:300px;
+
+    display: block;
+    margin: auto;
+}
+.button:hover{
+        background-color: #4CB5Ab; 
+}
+.all{
+    color: #00376E;
+    padding-left: 233px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+   padding-top: 45px;
+   padding-bottom: 31px;
+}
+.barista{
+        max-width:1320px;
+        margin:auto;
+        display: flex;
+}
+.imgs{
+    border:1px solid gray;
+    background-image:url(img/img8.jpg) ;
+    background-image:url(img/img9.jpg) ;
+    background-image:url(img/img10.jpg) ;
+    background-image:url(img/img11.jpg) ;
+    background-image:url(img/img12.jpg) ;
+}
+.blend{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #00376E;
+}
+.rs{
+    font-size: 18px;
+    color: #00376E;
+    font-family: 'Noto Sans', sans-serif;
+}
+.barista{
+        max-width:1320px;
+        margin:auto;
+        display: flex;
+}
+.sale{
+    border-radius: 100px;
+    padding:15px;
+    position: absolute;
+    right:0px;
+    top:70px;
+    background-color: #4cb5ab;
+    color: white;
+}
+.lock{
+    border-radius: 100px;
+    padding:15px;
+    position: absolute;
+    right:0px;
+    top:70px;
+    background-color: white;
+    color: #4cb5ab;
+    font-size:30px;
+}
+.coffee:hover{
+    background-color:#4cb5ab ;
+}
+.coffee{
+    background-image:url(img/img7.jpg);
+    width: 340px;
+    height: 250px;
+    background-size: cover;
+    position: relative;
+}
+.with{
+    border:1px solid red;
+    height:700px;
+}
