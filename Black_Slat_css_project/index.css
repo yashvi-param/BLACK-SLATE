@@ -219,6 +219,7 @@ a:hover{
     color: #00376E;
     font-family: 'Noto Sans', sans-serif;
     font-size: 24px;
+    background-color: white;
 }
 .text{
     color:#5981A9;
@@ -282,7 +283,7 @@ a:hover{
     border-radius: 100px;
     padding:15px;
     position: absolute;
-    right:0px;
+    right:59px;
     top:70px;
     background-color: #4cb5ab;
     color: white;
@@ -297,17 +298,95 @@ a:hover{
     color: #4cb5ab;
     font-size:30px;
 }
-.coffee:hover{
-    background-color:#4cb5ab ;
+.img-hover{
+  
+    position: absolute;
+    left:50%; 
+    top:50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    height: 80%;
+    background-color: #5ebcb3a8;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px
 }
-.coffee{
-    background-image:url(img/img7.jpg);
-    width: 340px;
-    height: 250px;
-    background-size: cover;
-    position: relative;
+.img-hover button{
+    padding: 10px 20px;
+    background:transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.img-hover button:hover{
+background-color: white;
+color: black;
 }
 .with{
-    border:1px solid red;
-    height:700px;
+    width:1320px;
+    margin:auto;
+    display:flex;
+}
+.head{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    color:#00376E;
+    padding-top:168px;
+
+}
+.commited{
+    align-items:center;
+    padding-top:30px ;
+    color: #5981A9;
+    font-size: 14px;
+
+}
+.box1{
+    width:50%;
+    font-family: 'Noto Sans', sans-serif;
+    padding:50px;
+}
+.box2{
+
+    width:50%;
+    font-family: 'Noto Sans', sans-serif;
+    padding:30px;
+}
+.fair>h5{
+    color: #00376E;
+    font-size: 16px;
+    padding:20px;
+    font-weight: normal;
+}
+div>button{
+    background-color: #4CB5AB;
+    border-radius: 19px;
+    color:white;
+    font-size: 14px;
+    padding:10px;
+    border:0px;
+}
+div>button:hover{
+    background-color:#0a5e55 ;
+}
+.source{
+    display: flex;
+    
+}
+.ims{
+    margin-right: 20px;
+    border:1px solid black;
+    padding:10px;
+}
+.bigbox{
+    padding: 23px;
+    border:1px solid green;
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-bottom: 40px;
+}
+.commited{
+    line-height: 1.8;
 }
