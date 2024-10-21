@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin:auto;
+    display: flex;
+    max-width: 1320px;
+
+}
+
+.logo > div > h1{
+    justify-content: center;
+     padding:20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:normal;
+    font-size:24px;
+    color: #00376E;
+    display:inline-block;
+}
+.navbar{
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    padding:20px;
+    margin-left:454px;
+}
+.nav a{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding:5px;
+    margin: 2px 5px;
+    display:inline-block;
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar a:hover{
+        background-color:  #4CB5AB;
+        color:white;
+        border-radius: 5px;
+}
+.use{
+    max-width: 1320px;
+    margin: auto;
+    padding-top:60px;
+    color: #00376E;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+.text p{
+   color: #5981A9;
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 1320px;
+    font-size: 15px;
+    margin: auto;
+    letter-spacing: normal;
+    line-height: 1.8;
+    padding-top: 30px;
+}
+.details{
+    max-width: 1320px;
+    margin:auto;
+    padding: 80px;
+    display: flex;
+}
+.about{
+    width:25%;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.us{
+    padding-bottom: 10px;
+    color:  #00376E;
+}
+.company a{
+    color:skyblue;
+    display:block;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: #4CB5AB;
+    padding:5px;
+}

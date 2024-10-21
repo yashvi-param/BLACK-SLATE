@@ -1,0 +1,209 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin:auto;
+    display: flex;
+}
+
+.logo > div > h1{
+    justify-content: center;
+  
+    padding:20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:normal;
+    font-size:24px;
+    color: #00376E;
+    display:inline-block;
+}
+.navbar{
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    padding:20px;
+    margin-left:1000px;
+}
+.nav a{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding:5px;
+    margin: 2px 5px;
+    display:inline-block;
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar a:hover{
+        background-color:  #4CB5AB;
+        color:white;
+        border-radius: 5px;
+}
+.box{
+    max-width: 1320px;
+    margin:auto;
+    display:flex;
+    margin-top:40px;
+    padding: 20px 50px;
+}
+.text{
+    width:50%;
+    text-align: start;
+    background-color: #00376E;
+    color: #FFFFFF;
+    gap:20px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 20px 50px;
+}
+.text h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    padding-top: 50px;
+    margin-right:286px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.text p{
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.img{
+   margin-left:40px;
+   width:50%;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: cover;
+}
+.selector{
+    font-weight: bold;
+    flex: 1 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #5981A9;
+    max-width: 1320px;
+    margin:auto;
+    padding-left:921px;
+}
+.selector select{
+    background: #fff;
+    color:gray;
+    padding:15px;
+}
+.barista{
+    max-width:1320px;
+    margin:auto;
+    display: flex;
+}
+.craft1{
+    width:33.33%;
+    padding: 20px;
+}
+.craft2{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.coffee{
+    position:relative;
+}
+.img-hover{
+  
+    position: absolute;
+    left:50%; 
+    top:50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    height: 80%;
+    background-color: #5ebcb3a8;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px
+}
+.coffee:hover .img-hover{
+    display: flex;
+}
+.img-hover button{
+    padding: 10px 20px;
+    background:transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0px;
+}
+.img-hover button:hover{
+    background-color: white;
+    color: black;
+}
+.img-hover .ri-search-line{
+     color:white;
+}
+.img-hover p{
+    border-bottom: 1px solid white;
+    width:100px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.blend{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #00376E;
+}
+.rs{
+    font-size: 18px;
+    color: #00376E;
+    font-family: 'Noto Sans', sans-serif;
+}
+.sale{
+    border-radius: 100px;
+    padding:15px;
+    position: absolute;
+    right:0px;
+    top:112px;
+    background-color: #4cb5ab;
+    color: white;
+}
+.star{
+   color: goldenrod;
+}
+.details{
+    max-width: 1320px;
+    margin:auto;
+    padding: 80px;
+    display: flex;
+}
+.about{
+    width:25%;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.us{
+    padding-bottom: 10px;
+    color:  #00376E;
+}
+.company a{
+    color:skyblue;
+    display:block;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: #4CB5AB;
+    padding:5px;
+}
