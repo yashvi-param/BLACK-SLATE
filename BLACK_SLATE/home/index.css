@@ -252,7 +252,7 @@
     border:1px solid #4cb5ab;
     border-radius: 50px;
     width:300px;
-
+    text-decoration: none;
     display: block;
     margin: auto;
 }
