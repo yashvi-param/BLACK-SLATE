@@ -6,6 +6,9 @@
 .header{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     background-color: white;
+    width: 100%;
+    /* background-color: white; */
+    /* position: fixed; */
 
 }
 
@@ -15,36 +18,37 @@
 }
 
 .container{
-    margin:auto;
     display: flex;
+    width:100%;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.logo > div > h1{
-    justify-content: center;
-  
-    padding:20px;
-    font-family: 'Nunito', sans-serif;
-    font-weight:normal;
-    font-size:24px;
+.logo{
     color: #00376E;
-    display:inline-block;
-}
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    text-transform: none;
+    line-height: normal;
+    letter-spacing: normal;
+    /* border: 1px solid black; */
+    width: 40%;
+    text-align: center;
+}     
 .navbar{
-    padding-left: 80px;
     display: flex;
-    justify-content: space-between;
+    /* border:1px solid black; */
+    width: 40%;
 }
-.nav{
-    padding:20px;
-    margin-left:1000px;
-}
-.nav a{
+.navbar a{
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
     padding:5px;
-    margin: 2px 5px;
+    margin: 2px 15px;
     display:inline-block;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -243,7 +247,7 @@
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
 }
-.a{
+.craft2 a{
     font-size:14px;
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
@@ -258,6 +262,7 @@
 }
 .a:hover{
         background-color: #4CB5Ab; 
+        text-decoration: none;
 }
 .all{
     color: #00376E;
