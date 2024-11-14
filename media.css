@@ -1,0 +1,40 @@
+.menu{
+    display:none
+}
+
+@media (max-width:991px){
+    .navbar{
+        display:none;
+    }
+    .menu{
+        display: block;
+    }
+    .craft1{
+        width:50%;
+    }
+    .about{
+        width:50%;
+    }
+   .box1{
+    width: 100%;
+   }
+
+   .box2{
+    width: 100%;
+   }
+   .sub-bs{
+    width: 50%;
+   }
+}
+@media(max-width:767px){
+    .craft1{
+        width:100%;
+    }
+    .about{
+        width:100%;
+    }
+
+    .sub-bs{
+        width: 100%;
+    }
+}

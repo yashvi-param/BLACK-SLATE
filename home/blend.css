@@ -1,0 +1,216 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin:auto;
+    display: flex;
+}
+
+.logo > div > h1{
+    justify-content: center;
+  
+    padding:20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:normal;
+    font-size:24px;
+    color: #00376E;
+    display:inline-block;
+}
+.navbar{
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    padding:20px;
+    margin-left:1000px;
+}
+.nav a{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding:5px;
+    margin: 2px 5px;
+    display:inline-block;
+}
+.navbar a:hover{
+        background-color:  #4CB5AB;
+        color:white;
+        border-radius: 5px;
+}
+.box{
+    border:1px solid red;
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+   
+}
+.barista{
+    border:1px solid green;
+    margin-left: 20px;
+    background-color:   #62beb5;
+    width:40%;
+}
+.blend{
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.img{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    padding:30px;
+}
+.star{
+    color: rgb(255, 203, 71);
+    padding-top: 20px;
+    font-size:15px;
+    display:flex;
+    margin-bottom: 20px;
+}
+.uncomplete{
+    font-size:15px;
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+}
+.review a{
+    margin-left: 12px;
+    padding-left: 12px;
+    text-decoration: none;
+    color:white;
+}
+.line{
+    border:1px solid white;
+    width:100%;
+    background-color: #4CB5AB;
+    display: flex;
+}
+.select{
+    padding-top: 20px;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 50px;
+}
+.weight{
+    padding:10px;
+    text-align: center;
+    display: flex;
+}
+.weight a{
+    border: 1px solid white;
+    padding:10px;
+    justify-content: space-between;
+    text-decoration: none;
+    color:white;
+    margin-left:10px;
+}
+.this{
+    padding:30px;
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom:30px;
+    letter-spacing: normal;
+    font-weight: normal;
+    line-height: 20px;
+    border:1px solid white;
+}
+.logos{
+    color: #3b5998;
+    padding:30px;
+    font-size: 24px;
+    display: flex; 
+}
+.logos input{
+    width:30px;
+    height: 30px;
+}
+.d-flex{
+    display: flex;
+}
+.ri-twitter-fill{
+    color:black;
+}
+.ri-pinterest-line{
+    color:red;
+}
+.complete{
+    background-color: RGBA(0, 55, 110, 0.89);
+    width:30%;
+}
+.rupee{
+    font-size: 20px;
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+    padding:20px;
+    border-bottom: 1px solid white;
+}
+.quality{
+    font-size: 20px;
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+    padding:20px;
+}
+.E-mail input{
+    background-color: transparent;
+    border:1px solid white; 
+    margin:20px;
+    padding: 10px;
+    color:white;
+    /* display: inline; */
+}
+.up{
+    border:1px solid white;
+    display:inline;
+    color:white;
+    height:50px;
+    padding:10px;
+}
+.E-mail{
+    display: flex;
+}
+.cart a{
+    margin-top: 20px;
+    padding: 10px 15px;
+    color: #00376E;
+    /* display: block; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid white;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+.product{
+    /* border:1px solid black; */
+    max-width:1320px;
+    /* text-align: center; */
+    justify-content: center;
+    padding:30px;
+    margin:auto;
+    margin-top: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    background: #F4FAFA;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    color: #00376E;
+}
+
